@@ -1,4 +1,4 @@
-import { Trash2, X } from 'lucide-react'
+import React,{ Trash2, X } from 'lucide-react'
 
 export default function DeleteConfirm({ onConfirm, onCancel }) {
   return (

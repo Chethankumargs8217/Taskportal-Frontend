@@ -1,4 +1,5 @@
-import React, { useState, useEffect } from 'react'
+import React from 'react'
+import { useState, useEffect } from 'react'
 import { aiAPI } from '../services/api'
 import { X, Sparkles, Loader2, AlertCircle } from 'lucide-react'
 

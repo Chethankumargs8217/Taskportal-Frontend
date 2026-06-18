@@ -1,4 +1,5 @@
-import React, { format } from 'date-fns'
+import React from 'react'
+import { format } from 'date-fns'
 import { Pencil, Trash2, Calendar, Clock4, ChevronRight } from 'lucide-react'
 
 const STATUS_LABELS = { TODO: 'To Do', IN_PROGRESS: 'In Progress', DONE: 'Done' }

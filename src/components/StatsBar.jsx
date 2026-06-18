@@ -1,4 +1,5 @@
-import React, { CheckCircle2, Clock, Circle, BarChart3 } from 'lucide-react'
+import React from 'react'
+import { CheckCircle2, Clock, Circle, BarChart3 } from 'lucide-react'
 
 export default function StatsBar({ tasks }) {
   const total      = tasks.length

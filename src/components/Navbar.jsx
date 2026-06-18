@@ -1,4 +1,5 @@
-import React, { useAuth } from '../context/AuthContext'
+import React from 'react'
+import { useAuth } from '../context/AuthContext'
 import { Zap, LogOut, User } from 'lucide-react'
 
 export default function Navbar() {
